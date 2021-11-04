@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,body {
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+}
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+@import "colors";
+
+// General Css
+.genric__container {
+	max-width: 1180px;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	align-items: center;
+	>.genric-container-box {
+		padding: 20px 15px;
+		font-size: 30px;
+		width: 50%;
+	}
+}
+
+p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+img.fluid {
+	width: 100%;
+	height: auto;
+}
+
+h2 {
+	font-size: 28px;
+	color: $heading-color;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.mt-0 {
+	margin-top: 0px;
+}
+// General Css
+
+// Navigation css
+@import "navigation";
+// Navigation css
+
+// Section Banner
+@import "banner";
+// Section Banner
+
+// Testimonials
+@import "testimonials";
+// Testimonials
+
+// Contact form
+@import "contact";
+// Contact form
+
+// Footer
+@import "footer";
+// Footer
+
+// Responsive
+@import "responsive";
+// Responsive
